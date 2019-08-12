@@ -19,7 +19,7 @@ public class TestRentableService {
     @Test
     public void test_calcularAmount() {
         BigDecimal aplicado = new BigDecimal(10);
-        BigDecimal quantoTempoEmSemanas = new BigDecimal(30);
+        BigDecimal quantoTempoEmSemanas = new BigDecimal(36);
 
         BigDecimal amount = rentableService.calcularAmount(aplicado, quantoTempoEmSemanas);
 
