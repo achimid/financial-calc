@@ -72,7 +72,7 @@
             dataType: 'json',
             success: function (data) {
                 $('.js-result').removeClass('hidden')
-                $('.badge').html(data.replace('.', ','))
+                $('.badge').html(data.toString().replace('.', ','))
             }
         })
     }
