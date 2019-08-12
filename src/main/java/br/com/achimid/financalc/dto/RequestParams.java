@@ -4,8 +4,15 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 
-@Data
 public class RequestParams {
+
+    public BigDecimal getValorAplicado() {
+        return valorAplicado;
+    }
+
+    public void setValorAplicado(BigDecimal valorAplicado) {
+        this.valorAplicado = valorAplicado;
+    }
 
     private BigDecimal valorAplicado;
 
